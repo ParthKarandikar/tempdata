@@ -20,8 +20,9 @@ function App() {
 
  return(
 <div> 
+  <h1 className='title'>weatherr.</h1>
 {/* DATA-SEARCH */}
-  <input placeholder='🔍 Search' className='Search' type='Search' onChange={(event)=>{setSearch(event.target.value)}}/> 
+  <input placeholder='🔍 Search city' className='Search' type='Search' onChange={(event)=>{setSearch(event.target.value)}}/> 
         
 
 
@@ -40,8 +41,11 @@ function App() {
 </div>
 )
 }
+  
+  <h4 className='smallText'>You came and temperature went through the roof 👉👈 </h4> 
+  <button><a href='https://bit.ly/38GqvnO'>✨ About ME</a></button><br/> 
+   
 
-   <button><a href='https://bit.ly/38GqvnO'>✨ About ME</a></button> 
 </div> 
   );
 }
